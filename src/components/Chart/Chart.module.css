@@ -1,11 +1,13 @@
 .container {
+    background-color: rgb(26, 188, 156, 0.1);
+    border-radius: 10px;
     display: flex;
     justify-content: center;
-    width: 65%;
+    width: 60%;
   }
   
   @media only screen and (max-width: 770px) {
     .container {
-      width: 100%;
+      width: 100vw;
     }
   }
