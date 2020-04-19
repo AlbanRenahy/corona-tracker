@@ -55,7 +55,7 @@ const Cards = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {new Date(lastUpdate).toLocaleDateString("fr-FR", options)}
             </Typography>
             <Typography variant="body2">
-              Number de guéris du COVID-19
+              Nombre de guéris du COVID-19
             </Typography>
           </CardContent>
         </Grid>
